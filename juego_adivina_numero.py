@@ -14,7 +14,7 @@ while numero_intentos<7:
     numero_intentos+=1
 
     if estimacion==numero_aleatorio: 
-        print(f"!Ganaste, en solo {numero_intentos} intentos 🥳")
+        print(f"!Ganaste, en solo {numero_intentos} intentos")
         break
 
     elif estimacion>numero_aleatorio:
