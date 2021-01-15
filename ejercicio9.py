@@ -1,16 +1,17 @@
-"""
-Escribir un programa que almacene la cadena de caracteres
-contraseña en una variable, pregunte al usuario por
-la contraseña e imprima por pantalla si
-la contraseña introducida por el usuario coincide con
-la guardada en la variable sin tener en cuenta mayúsculas y minúsculas.
+"""un programa que pida dos números por teclado y devolver el número más alto de los dos
+introducidos
 """
 
+num1=int(input("Introduce el primer valor:\n"))
+num2=int(input("Introduce el segundo valor:\n"))
 
-key="contraseña"
-password=input("Introduce la contraseña:\n")
+print("El resultado es:")
 
-if key==password.lower():
-    print("La contraseña conside")
+if num1 >num2:
+    print(num1)
+
+elif num1<num2:
+    print(num2)
+
 else:
-    print("La contraseña no conside")
+    print("Son iguales")
